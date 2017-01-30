@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="13c47f50-a938-4b32-bafc-731fd74fdd84" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://demoservicewcf.azurewebsites.net/DemoService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DemoService.wsdl" MetadataType="Wsdl" ID="c94af011-e77c-4884-8877-7a0020bcde57" SourceId="1" SourceUrl="https://demoservicewcf.azurewebsites.net/DemoService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="DemoService1.wsdl" MetadataType="Wsdl" ID="60774d5b-e8be-4c34-8142-58c1491bfdc0" SourceId="1" SourceUrl="https://demoservicewcf.azurewebsites.net/DemoService.svc?wsdl" />
+    <MetadataFile FileName="DemoService.xsd" MetadataType="Schema" ID="b20f6875-aae9-4d3a-852a-163733b5966a" SourceId="1" SourceUrl="https://demoservicewcf.azurewebsites.net/DemoService.svc?xsd=xsd1" />
+    <MetadataFile FileName="DemoService.disco" MetadataType="Disco" ID="3c09be55-34ce-4684-95a3-2d98bc0fd899" SourceId="1" SourceUrl="https://demoservicewcf.azurewebsites.net/DemoService.svc?disco" />
+    <MetadataFile FileName="DemoService1.xsd" MetadataType="Schema" ID="7694faa9-e4a1-4bb2-964e-f889970338d4" SourceId="1" SourceUrl="https://demoservicewcf.azurewebsites.net/DemoService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
